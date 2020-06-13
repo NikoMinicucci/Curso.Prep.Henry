@@ -1,0 +1,9 @@
+for: se lo usa para hacer bucles (loops), de manera de no repetir el mismo comando una y otra vez.
+contiene 3 argumentos que son la variable, la condicion y el "aumento" de la variable.
+
+un operador logico trabaja como un operador matematico, pero con la logica booleana. danto true or false 
+dependiendo del caso.
+&& (AND) para que de true ambos argumentos deben ser true, de lo contrario si uno de ellos o ambos es false lo dara 
+como resultado.
+|| (OR) va a dar siempre true a menos que los 2 argumentos sean false.
+! (NOT) se atribuye a invertir una logica booleana.
