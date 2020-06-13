@@ -1,0 +1,10 @@
+Variable: es un objeto que tiene un nombre y un valor que uno le asigna y pueden ser palabras o numeros. Existen 3 tipos : var, const y let.
+
+Strings: se escriben entre comillas y son interpretadas como texto.
+
+Funciones: son obejtos que contienen "intrucciones" llamados argumentos, que al introducir algo en ellas te devuelve una respuesta  solamente. "return" es un argumento que hace que la funcion termine de ejecutarse, todo lo que este debajo del mismo no se leera.
+
+if: se trata de un argumento de condicion, si cumple la condicion pasa a ejecutarse. 
+Ejemplo: SI (if) comes las verduras, habra postre.
+
+Booleanos: es una variable que solo puede tomar entre 2 valores, si o no, verdadero o falso, etc.
