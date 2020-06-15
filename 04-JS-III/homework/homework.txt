@@ -1,0 +1,18 @@
+Arrays: es una variable que puede tener varios elemento, no iguales, como: 
+                                                                            str 
+                                                                            num 
+                                                                            fucntion 
+                                                                            booleanos 
+                                                                            arrays (dentro de la misma) 
+Los elementos van entre [ ] y separados por ',' . tomando el primer elemento el valor 0.
+var ejemplo = [1, 2, 5, 6, 'Niko', true]
+posiciones     0  1  2  3     4      5
+tambien tiene atributos como: .length (longitud del arreglo) 
+                              .push () (como funcion que agrega un elemento al final del arreglo)
+                              .pop () (como funcion que quita el ultimo elemento del arreglo de manera permanente)  
+                              .unshift () (al igual que .push () pero al principio del arreglo, tomando el elemento incluido la posicion 0)
+                              .shift () (al igual que .pop() pero al principio del arreglo, el cual esta en la posicion 0)
+La forma de invocar un elemento es poniendo el nombre de la variable, lugo [ ] y entre ellos el lugar del elemento en cuestion.
+Si cuenta con otro arreglo dentro, solo hay que sumarle ademas de la posicion del miismo otro [ ] con el lugar de un elemento (Las str son 
+tambien tomadas como arreglos y se puede accionar de la misma forma).
+Ademas se puede utilizar dentro de bucles.                              
