@@ -93,11 +93,17 @@ function numeroMasGrande(numeros) {
   return maximo;
 }
 
-function multiplicarArgumentos() {
+function multiplicarArgumentos(argumentos) {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
+  const todosLosArgumentos = arguments ;
+  var acumulador = 1 ;
+  if (todosLosArgumentos === undefined) {return 0;} 
+    for ( i = 0 ; i < todosLosArgumentos.length ; i ++){
+        acumulador *= todosLosArgumentos [i]}
+        return acumulador;
 }
 
 // No modificar nada debajo de esta línea
