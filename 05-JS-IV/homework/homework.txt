@@ -1,0 +1,21 @@
+Obejtos: guardan informacion sobre una cosa en especifico, se hace entre {} y van de a pares llamados key:value (clave:valor) separados unos de otro por comas.
+En su interior pueden almacenar cualquier tipo de datos inclusive funciones, que al estar dentro de un objeto pasan a llamarse metodos.
+
+Propiedades: son la informacion que guarda de a pares (key:value) un objeto, que se puede invocar como cualquier propiedad o entre corchetes como los arrays.
+
+Metodos: son funciones dentro de objetos y se invocan como cualquier otra funcion 
+
+Notación de puntos vs notación de corchetes: para invocar, añadir u eliminar a estas propiedades dentro de un objeto, exiten 2 formas por puntos ejemplo:
+var miAuto = {
+marca = 'Chevrolet',
+modelo = 'Chevy',
+año = ''69',
+motor = '250 piescubicos'
+}
+console.log (miAuto.marca) // Chevrolet 
+                ó
+console.log (miAuto["modelo"]) // Chevy               
+ambas formas funcionan de la misma manera solo que para casos donde el valor tiene espacios, simbolos o para tomar el valor de una variable, es recomendable 
+usar los [] ya que evita problemas.
+
+Blucle: for (variable in objeto), itera una variable especifica entre todas las propiedades del objeto
