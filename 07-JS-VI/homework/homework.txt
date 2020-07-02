@@ -1,0 +1,2 @@
+Callback: es cuando a una funcion se la pasa como argumento de otra, solo debe ponerse el nombre  de la funcion,
+no debe ser invocada
