@@ -1,0 +1,4 @@
+Prototype: se utiliza para agregar métodos y propiedades a los objetos, de manera externa.
+
+Constructora: es una funcion que almacena informacion para la creacion de nuevos objetos a partir de ella, hace que todos los objetos creados sean iguales,
+y no haya error de tipeo como se lograria si se cargara cada uno individualmente.
